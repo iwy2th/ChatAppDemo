@@ -39,6 +39,6 @@ struct MessageBubble: View {
 // MARK: - PREVIEW
 struct MessageBubble_Previews: PreviewProvider {
     static var previews: some View {
-      MessageBubble(message: Message(id: "123", text: "Summary Loads and displays a modifiable image from the specified URL using a custom placeholder until the image loads.", received: false, timestamp: Date()))
+      MessageBubble(message: Message(id: "123", text: "Summary Loads and displays a modifiable image from the specified URL using a custom placeholder until the image loads.", received: true, timestamp: Date()))
     }
 }
